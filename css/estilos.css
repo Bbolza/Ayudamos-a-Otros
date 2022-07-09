@@ -1,0 +1,100 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Inicio body */
+
+/* El color background solo aplica a la pagina principal - INICIO */
+body {
+    background-color: blanchedalmond;
+}
+
+/* Fin body */
+
+h1 {
+    text-align: center;
+    column-width: 500px;
+    line-height: 300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+p {
+    color: darkblue;
+
+}
+
+
+.red {
+    color: red;
+}
+
+.italic {
+    font-style: italic;
+}
+
+
+.caps {
+    font-variant: small-caps;
+}
+
+#bold {
+    font-weight: bold;
+}
+
+/* MARGIN & PADDING */
+
+.imagen_animales--size {
+    margin: 30px;
+    padding: 1px;
+    box-sizing: border-box;
+}
+
+
+/* HEADER */
+
+.header_navbar_padding {
+    padding: 20px;
+}
+
+.menu {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+/* MAIN */
+
+.main.width {
+    line-height: 1.8;
+    width: 80%;
+
+}
+
+/* FIXED FOOTER */
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+
+/* BORDE Y BOX DEL FOOTER */
+
+div {
+    border-top: solid 5px red;
+    border-bottom: solid 5px red;
+    border-left: solid 5px red;
+    border-right: solid 5px red;
+    height: 200px;
+    display: inline-flex;
+
+
+}
