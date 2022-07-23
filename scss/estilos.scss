@@ -177,3 +177,14 @@ footer {
     height: 180px;
     display: inline-flex;
 }
+
+/* _tables.scss bootstrap */
+.thead-dark {
+    th {
+      color: $table-dark-color;
+      background-color: $table-dark-bg;
+      border-color: $table-dark-border-color;
+    }
+  }
+  
+ 

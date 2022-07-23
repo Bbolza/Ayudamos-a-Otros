@@ -161,7 +161,7 @@ footer {
   border-bottom: solid 5px burlywood;
   border-left: solid 5px burlywood;
   border-right: solid 5px burlywood;
-  height: 180px;
+  height: 160px;
   display: inline-flex;
 }
 
@@ -210,3 +210,4 @@ img {
   width: 100%;
   height: auto;
 }
+
