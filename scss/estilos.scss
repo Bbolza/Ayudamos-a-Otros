@@ -187,4 +187,15 @@ footer {
     }
   }
   
- 
+ /* MAP-GET () = LISTA DE ELEMENTOS */
+ $redes:(
+    instagram: pink
+    Facebook: Blue
+    twitter: light Blue
+ )
+    /* EACH = PARA CADA UNO DE LOS NOMBRES SE GENERA UN BOTON DIFERENTE */
+@each $name, $color in $redes {
+    .btn-#{$name}{
+        background-color: map-get($map: $map: $redes $key: );
+    }
+}
