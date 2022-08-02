@@ -95,13 +95,11 @@
 
  }
 
- /* ESTILO FORM PAGINA CONTACTO - ESPACIADO Y CENTRADO DEL FORM*/
- form {
-     /* Centrar el formulario en la página */
+  .form_contacto {
+     
      margin: 0 auto;
      width: 400px;
-     /* Esquema del formulario */
-     padding: 1em;
+          padding: 1em;
      border: 1px solid #CCC;
      border-radius: 1em;
  }
@@ -189,22 +187,6 @@
      grid-row: 100px;
  }
 
- /* BORDE Y BOX DEL FOOTER */
- .footer {
-     width: 100%;
-     padding-left: 8%;
-     padding-right: 10%;
-     display: grid;
-     height: 160px;
-     box-sizing: border-box;
-
-
- }
-
- * {
-     box-sizing: border-box;
- }
-
  body {
      margin: 0;
  }
@@ -220,7 +202,9 @@
          'E';
  }
 
- @media only screen and (max-width: 600px) and (min-width: 400px) .container {
+ @media only screen and (max-width: 600px) and (min-width: 400px) 
+ 
+ .container {
      grid-template-columns: 1.52fr 1fr 1fr 1.525fr;
      grid-template-areas:
          'A  B  C  E'
