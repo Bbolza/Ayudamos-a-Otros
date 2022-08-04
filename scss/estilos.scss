@@ -199,3 +199,30 @@ footer {
         background-color: map-get($map: $map: $redes $key: );
     }
 }
+
+@mixin ::after($position::after) {
+    position: absolute;
+
+    &::after{
+        content: $content;
+        position: $pos;
+        @content
+    }
+    
+}
+@mixin important-text() {
+    transition: transform 350ms ease-in-out;
+    box-shadow: 0 .25em .5em 0 rgba($color: black, .2);
+
+    @include after(){
+box-shadow: 0 0 1.25em 0 rgba($color: black, .4);
+transition: transform 350ms ease-in-out;
+opacity: 0;
+    }
+
+           
+}
+.important text{
+    @include m.important-text()
+
+}
